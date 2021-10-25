@@ -1,0 +1,187 @@
+#menu {
+  background: #000;
+  color: #fff;
+}
+
+.menu {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu h1 {
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+.menu img {
+  width: 25%;
+  margin: auto;
+}
+
+.menu p {
+  font-size: 12px;
+  max-width: 60%;
+  text-align: center;
+}
+
+.menu .price {
+  text-align: right;
+  max-width: 100%;
+  color: rgb(218,170,0);
+  font-size: 18px;
+}
+
+.menu h2 {
+  color: rgb(218,170,0);
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .menu h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+}
+
+.menu .acomodar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#separator {
+  border-right: 1px red solid;
+}
+
+@media (max-width: 768px) {
+  #separator {
+    border-right: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    padding: 0 10px 0 10px;
+  }
+}
+
+.banner2 img {
+  width: 100%;
+}
+
+.menu h6 {
+  color: rgb(218,170,0);
+  text-align: left;
+}
+
+.menu .submenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.banner3 {
+  width: 100%;
+  position: relative;
+}
+
+.banner3 img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.banner3 .carte {
+  animation: change 3s ease-in-out infinite;
+  transition: 1s;
+  position: absolute;
+}
+
+@keyframes change {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  95% {
+    transform: translateY(0);
+  }
+}
+
+.banner4 {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner4 img {
+  width: 100%;
+}
+
+.banner4 .carte {
+  animation: change 3s ease-in-out infinite;
+  transition: 1s;
+  position: absolute;
+}
+
+.menu .linea {
+  width: 50%;
+  height: 2px;
+  background: rgb(101,0,0);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.botonpalmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portadaPrincipal {
+  width: 100%;
+  height: 800px;
+  background: url("/assets/img/portadaprincipal1.jpg?h=20c0c7e1226cc3cc462a64c0061e0fb3");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar.navbar-dark.navbar-expand-lg.navigation-clean-search {
+  background: rgba(0,0,0,0.5);
+}
+
+#navcol-1 a {
+  color: #fff;
+}
+
+.boton {
+  padding: 8px 30px 8px 30px;
+  background: rgb(207,175,5);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 25%;
+}
+
